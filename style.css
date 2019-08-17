@@ -25,7 +25,7 @@ li a{
 }
 
 #welcome-section{
-    background-color: #eee;
+    background-color: thistle;
     padding: 1px;
     width: 1022px;
     height: 400px;
@@ -49,4 +49,17 @@ li a{
     font-family: cursive;
     line-height: 3px;
     font-weight: 600;
+}
+
+
+#projects h2{
+    text-align: center;
+    font-size: xx-large;
+    font-style: italic;
+    font-family: inherit;
+}
+
+#projects{
+    background: #beb2b2;
+    padding: 1px;
 }
