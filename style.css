@@ -63,3 +63,25 @@ li a{
     background: #beb2b2;
     padding: 1px;
 }
+
+
+@media (min-width: 320px) and (max-width: 600px){
+    #li a{
+        font-size: large;
+        font-weight: 500;
+    }
+    #navbar{
+        padding: 8px;
+    }
+    #welcome-section{
+        width: -webkit-fill-available;
+    }
+
+    #welcome-section h1 {
+        font-size: x-large;
+    }
+
+    #welcome-section p {
+        font-size: larger;
+    }
+}
