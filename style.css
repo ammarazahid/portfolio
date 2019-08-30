@@ -10,14 +10,15 @@ ul{
 li a{
     list-style-type: none;
     text-decoration-line: none;
-    font-size: x-large;
+    font-size: xx-large;
     font-weight: 500;
-    color: #baca1e;
+    color: black;
     margin-right: 33px;
+    font-variant-caps: small-caps;
 }
 
 #navbar{
-   background-color: #992020;
+    background-image: linear-gradient(45deg, #992020, transparent);
    padding: 10px;
    border-bottom: 3px solid black;
    position: fixed;
@@ -25,10 +26,10 @@ li a{
 }
 
 #welcome-section{
-    background-color: thistle;
+    background-image: linear-gradient(45deg, black, transparent);
     padding: 1px;
     width: 1022px;
-    height: 400px;
+    height: 600px;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -60,10 +61,64 @@ li a{
 }
 
 #projects{
-    background: #beb2b2;
-    padding: 1px;
+    background-image: linear-gradient(45deg, #b51515b5, #1d1a1ab8);
+        padding: 1px;
+        width: 1022px;
 }
 
+img{
+    width: 292px;
+    height: 192px;
+    margin: 20px;
+    border-radius: 24px;
+
+}
+
+.projects-grid div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.projects-grid a{
+border: 2px solid black;
+border-radius: 32px;
+margin: 26px;
+background-image: linear-gradient(45deg, black, transparent);
+text-decoration: none;
+
+}
+
+
+.projects-grid p{
+    font-size: x-large;
+    text-align: center;
+    margin: auto;
+    font-style: oblique;
+    color: aliceblue;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.projects-grid p:hover{
+    font-size: xx-large;
+    color: darkgrey;
+}
+
+footer{
+    padding: 44px;
+    text-align: center;
+    background-image: linear-gradient(45deg, black, transparent);
+    width: 1022px;
+}
+
+#profile-link{
+    font-size: xx-large;
+    font-weight: 600;
+    color: #b11b1b;
+    font-style: oblique;
+    text-decoration: none;
+}
 
 @media (min-width: 320px) and (max-width: 600px){
     #li a{
@@ -73,9 +128,7 @@ li a{
     #navbar{
         padding: 8px;
     }
-    #welcome-section{
-        width: -webkit-fill-available;
-    }
+   
 
     #welcome-section h1 {
         font-size: x-large;
@@ -83,5 +136,27 @@ li a{
 
     #welcome-section p {
         font-size: larger;
+ 
     }
+
+    .projects-grid div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    img {
+        width: 251px;
+        height: 161px;
+    }
+
+    
+.projects-grid p:hover{
+    font-size: xx-large;
+    color: darkgrey;
+}
+
+   
+
 }
