@@ -28,7 +28,7 @@ li a{
 #welcome-section{
     background-image: linear-gradient(45deg, black, transparent);
     padding: 1px;
-    width: 1022px;
+/*     width: 1022px; */
     height: 600px;
     text-align: center;
     display: flex;
@@ -63,7 +63,7 @@ li a{
 #projects{
     background-image: linear-gradient(45deg, #b51515b5, #1d1a1ab8);
         padding: 1px;
-        width: 1022px;
+/*         width: 1022px; */
 }
 
 img{
@@ -109,7 +109,7 @@ footer{
     padding: 44px;
     text-align: center;
     background-image: linear-gradient(45deg, black, transparent);
-    width: 1022px;
+/*     width: 1022px; */
 }
 
 #profile-link{
