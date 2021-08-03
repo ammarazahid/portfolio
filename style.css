@@ -15,15 +15,17 @@ li a{
     color: black;
     margin-right: 33px;
     font-variant-caps: small-caps;
+    
 }
 
 #navbar{
     background-image: linear-gradient(45deg, #992020, transparent);
    padding: 10px;
    border-bottom: 3px solid black;
-   position: fixed;
     width: -webkit-fill-available;
 }
+
+
 
 #welcome-section{
     background-image: linear-gradient(45deg, black, transparent);
@@ -120,13 +122,13 @@ footer{
     text-decoration: none;
 }
 
-@media (min-width: 320px) and (max-width: 600px){
+@media (min-width: 300px) and (max-width: 600px){
     #li a{
-        font-size: large;
+        font-size: small;
         font-weight: 500;
     }
     #navbar{
-        padding: 8px;
+        display: flex;
     }
    
 
@@ -155,8 +157,6 @@ footer{
 .projects-grid p:hover{
     font-size: xx-large;
     color: darkgrey;
-}
-
-   
+}  
 
 }
